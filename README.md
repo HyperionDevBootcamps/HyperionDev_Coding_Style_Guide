@@ -48,6 +48,8 @@ This document aims to provide a guide to coding style, offering guidance, refere
 
 The rubric that is used for grading HyperionDev students follows a grading scale of 1 - 4 and includes four metrics. One of these metrics is coding style which assesses various aspects such as indentation, spacing, naming conventions, commenting practices, and overall code organization.
 
+![Asynchronous review rubric](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/69377e77-6c97-459b-954b-e4fc3701a832)
+
 ## Student Implementation:
 
 To ensure adherence to coding style guidelines, students are encouraged to:
