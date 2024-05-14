@@ -42,6 +42,43 @@ This document aims to provide a guide to coding style, offering guidance, refere
 - [PHP Extended Coding Style](https://www.php-fig.org/psr/psr-12/)
 - [PHP Standards Recommendations](https://www.php-fig.org/psr/)
 
+# Code style extensions
+
+## Python
+The [Flake 8](https://marketplace.visualstudio.com/items?itemName=ms-python.flake8) extension is a linting tool for Python code. Flake8 makes it convenient to check code for common errors such as syntax errors. It also helps to enforce some of the coding standards and best practices from the PEP 8 Style Guide regarding indentations, whitespaces, and more.  
+
+### Installation
+1. Open VS Code and click on the extension's icon on the left panel.
+2. Search for Flake8 in the search bar.
+3. Click on the "Flake8" extension by Microsoft and then the install button.
+
+![Flake8](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/959fe0c2-55fe-4179-84aa-90aa59ae9869)
+
+## JavaScript, HTML and CSS
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) is a code formatting tool that automatically formats code when saved, according to a set of predefined rules and conventions. This extension supports JavaScript, HTML and CSS, but it doesn't support Python. However, please note that Prettier focuses solely on code formatting and does not perform linting or provide warnings about violations of coding style guidelines as Flake8 does. 
+
+### Installation
+1. Open VS Code and click on the extension's icon on the left panel.
+2. Search for "Prettier" in the search bar.
+3. Click on the "Prettier - Code formatter" extension by Prettier and then the install button.
+
+![Prettier](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/e0656b41-569a-4309-bead-86a61b2fe063)
+
+### Settings
+After installation, you'll need to adjust the settings to enable Prettier. You may follow these steps:
+
+1. Click on the "manage" icon and then "extension settings".
+![Prettier step 1](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/775ee0f4-03a4-427f-baf7-99e0d76580d3)
+
+2. Type "default" in the search box and navigate to the "Text Editor" folder. Next, set Prettier as the default formatter from the dropdown menu. 
+![Prettier step 2](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/e10ea9ee-e2f0-4ec4-87bd-76872edb4229)
+
+3. Lastly, type "format" in the search box and navigate to "Text Editor > Formatting". Check the boxes to format the file on paste, save and type.
+![Prettier step 3](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/9022f993-3368-4c1a-a8fe-c02190ee3db5)
+
+## Note
+While the above mentioned tools can provide helpful suggestions for maintaining coding style, it's important to note that they should be used as guidance. Adherence to the recommended style guides specified in this document takes precedence over the suggestions provided by these tools. Ultimately, it's the responsibility of students and all academic staff to ensure that the code aligns with the coding conventions outlined in the recommended style guides.
+
 ## Implementation and Evaluation
 
 ### Grading rubric:
