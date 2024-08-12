@@ -42,6 +42,10 @@ This document aims to provide a guide to coding style, offering guidance, refere
 - [PHP Extended Coding Style](https://www.php-fig.org/psr/psr-12/)
 - [PHP Standards Recommendations](https://www.php-fig.org/psr/)
 
+## Shell/Bash
+
+- [Shell/Bash Style Guide](https://google.github.io/styleguide/shellguide.html) 
+
 # Code style extensions
 
 ## Python
