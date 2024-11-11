@@ -13,7 +13,7 @@ This document aims to provide a guide to coding style, offering guidance, refere
 - Provide students with reputable style guides to enhance their understanding and application of coding style principles.
 - Assess students adherence to coding style guidelines and provide constructive feedback for improvement.
 
-# Recommended Style Guides:
+# Prescribed Style Guides:
 
 ## Python
 
