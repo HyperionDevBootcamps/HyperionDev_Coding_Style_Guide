@@ -16,9 +16,141 @@ This document aims to provide a guide to coding style, offering guidance, refere
 # Prescribed Style Guides:
 
 ## Python
+# Python PEP 8 Style Guide: A Beginner's Cheat Sheet 🐍
+
+## What is PEP 8?
+PEP 8 is like a style manual for Python code. Think of it as the "grammar and etiquette" guide for writing clean, readable Python programs. Following these rules helps make your code look professional and easy for other programmers to understand.
+
+## Indentation: The Backbone of Python
+- Use **4 spaces** for each level of indentation
+- **Never mix tabs and spaces**
+ 
+ Example:
+  ```python
+  def my_function():
+      if True:
+          print("Properly indented!")  # 4 spaces in
+  ```
+
+## Line Length: Keep It Readable
+- Maximum line length: **79 characters**
+- If a line is too long, break it up
+- Use parentheses to wrap long lines
+ 
+ Example:
+  ```python
+  # Good: Use parentheses to break long lines
+  long_variable = (first_part + 
+                   second_part + 
+                   third_part)
+  ```
+
+## Naming Conventions: What to Call Things
+
+### Variables and Functions
+- Use **lowercase** with **underscores**
+- Clear and descriptive names
+ 
+ Example
+  ```python
+  # Good ✅
+  user_name = "Alice"
+  calculate_average_score()
+
+  # Avoid ❌
+  userName = "Bob"
+  calcAvgScore()
+  ```
+
+### Classes
+- Use **CamelCase**
+- Start with a capital letter
+ 
+ Example:
+  ```python
+  class StudentRecord:
+      def __init__(self, name):
+          self.student_name = name
+  ```
+
+### Constants
+- Use **ALL_UPPERCASE** with underscores
+ 
+ Example:
+  ```python
+  MAX_STUDENTS = 30
+  PI_VALUE = 3.14159
+  ```
+
+## Whitespace: Breathe Some Air into Your Code
+- Use blank lines to separate functions and logical sections
+- No extra spaces inside parentheses or before commas
+ 
+ Example:
+  ```python
+  # Good spacing
+  def function_one():
+      pass
+
+  def function_two():
+      x = (1, 2, 3)  # No space inside parentheses
+      list_of_items = [1, 2, 3]  # No space before comma
+  ```
+
+## Comments and Docstrings
+- Use comments to explain *why*, not *what*
+- Write clear, concise docstrings for functions
+ 
+ Example:
+  ```python
+  def calculate_grade(score):
+      """
+      Converts a numeric score to a letter grade.
+      
+      Args:
+          score (int): Numeric score between 0-100
+      Returns:
+          str: Letter grade (A, B, C, etc.)
+      """
+      # Complex grade calculation logic
+      if score >= 90:
+          return 'A'
+      # More grade ranges...
+  ```
+
+## Imports: Organize Your Toolbox
+- Put imports at the top of the file
+- Standard library imports first, then third-party, then local imports
+- Example:
+  ```python
+  # Standard library
+  import math
+  import random
+
+  # Third-party
+  import numpy
+  import pandas
+
+  # Your own modules
+  import my_custom_module
+  ```
+
+## Pro Tips 🌟
+- Consistency is key
+- Use tools like `pylint` or `black` to automatically check your code
+- Practice makes perfect!
+
+## Remember
+PEP 8 isn't about being perfect, it's about writing code that's:
+- Easy to read
+- Easy to understand
+- Easy to maintain
+
 
 - [PEP 8 – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
+Happy Pythoning! 🐍✨
 
 ## SQL
 
