@@ -34,7 +34,7 @@ PEP 8 is like a style manual for Python code. Think of it as the "grammar and et
   ```
 
 ## Line Length
-- Limiting lines to **79 characters** makes your code easier to read. 
+- Limit lines to **79 characters** for code and **72 characters** for comments to improve readability.
 - If a line is too long, break it into smaller parts for clarity and better organization.
 - Use parentheses to wrap long expressions when splitting lines.
  
