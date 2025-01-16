@@ -139,7 +139,7 @@ PEP 8 is like a style manual for Python code. Think of it as the "grammar and et
 
 ## Best Practices for Clean Code
 - Consistency is key for writing clean, maintainable code.
-- Use tools like `pylint` or `black` to automatically check your code and enforce style consistency.
+- Use tools like `Flake8`, `pylint` or `black` to assist in maintaining style consistency.
 - Practice regularly to improve your coding skills and reinforce good habits.
 
 ## Why PEP 8 Matters
