@@ -192,6 +192,20 @@ The [Flake 8](https://marketplace.visualstudio.com/items?itemName=ms-python.flak
 
 ![Flake8](https://github.com/HyperionDevBootcamps/HyperionDev_Style_Guides/assets/167426222/959fe0c2-55fe-4179-84aa-90aa59ae9869)
 
+
+In addition to Flake8, the [Black Formatter](https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter) is another excellent tool that automatically formats your Python code to conform to PEP 8 standards. It ensures consistent formatting and can help you save time by handling indentation, line length, and spacing issues for you.
+
+### Installation
+1. Open VS Code and click on the extension's icon on the left panel.
+2. Search for Black Formatter in the search bar.
+3. Click on the "Black Formatter" extension by Microsoft and then the install button.
+4. After installation, highlight your Python code.
+5. Right-click and select "Format Document With...".
+6. From the dropdown, choose Black Formatter. This will automatically format your code according to PEP 8 standards.
+
+![Black Formatter](https://github.com/user-attachments/assets/d01e4199-1cb2-4a8a-a541-eab1c36fcbc8)
+
+
 ## JavaScript, HTML and CSS
 [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) is a code formatting tool that automatically formats code when saved, according to a set of predefined rules and conventions. This extension supports JavaScript, HTML and CSS, but it doesn't support Python. However, please note that Prettier focuses solely on code formatting and does not perform linting or provide warnings about violations of coding style guidelines as Flake8 does. 
 
