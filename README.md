@@ -203,8 +203,7 @@ In addition to Flake8, the [Black Formatter](https://marketplace.visualstudio.co
 5. Right-click and select "Format Document With...".
 6. From the dropdown, choose Black Formatter. This will automatically format your code according to PEP 8 standards.
 
-![Black Formatter](https://github.com/user-attachments/assets/d01e4199-1cb2-4a8a-a541-eab1c36fcbc8)
-
+![Black Formatter](https://github.com/user-attachments/assets/0729ad31-5acd-4b3f-8363-37a419cdb174)
 
 ## JavaScript, HTML and CSS
 [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) is a code formatting tool that automatically formats code when saved, according to a set of predefined rules and conventions. This extension supports JavaScript, HTML and CSS, but it doesn't support Python. However, please note that Prettier focuses solely on code formatting and does not perform linting or provide warnings about violations of coding style guidelines as Flake8 does. 
